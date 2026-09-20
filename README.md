@@ -32,7 +32,7 @@
 - [x] **阶段 4 · flow-matching 采样循环**（已完成）：欧拉采样 + **与官方库逐层对齐（cos=1.0000）**；修正时间注入（序列前缀 token）、Attention head 交错排列、MoE gate 归一化（详见 `STAGE4.md`）
 - [x] **阶段 5 · ShapeVAE 解码**（已完成）：post_kl + 16 层 transformer + geo_decoder，与官方逐层对齐 cos=1.0000/maxdiff=0；体积分块解码冒烟通过（详见 `STAGE5.md`）
 - [x] **阶段 6 · 表面提取 + 端到端验证**（已完成）：skimage MC 与官方逐位一致；**自研内核端到端产出 F=9920 watertight GLB（官方同 x0 F=9890，量级一致），Blender 无头 QA 通过**；定位早期差距根因 = fp16 数值路径混沌放大 + x0 噪声流差异，非内核缺陷（详见 `STAGE6.md`）
-- [ ] **阶段 7 · GLB 导出**：trimesh 落盘
+- [x] **阶段 7 · GLB 导出**（已完成）：`stage7_glb.py` 端到端一键 CLI（官方 randn_tensor 噪声语义 + sdp_kernel flash 对齐 + 确定性自检 0.00e+00），seed=42/steps=10 实测 F=1184 watertight，Blender 无头 QA 通过（详见 `STAGE7.md`）
 
 > 每个阶段独立可验证（打印中间张量形状/范数即可），不阻塞主线。
 > 里程碑式推进：哪怕只到阶段 3（DiT 单步前向数值合理），也算"有一点点效果"。

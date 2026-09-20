@@ -1,0 +1,6757 @@
+{
+  "shape_dit": {
+    "file": "C:\\Users\\bnna7\\workspace\\git\\aigc-refactored\\models\\diffusion_models\\hunyuan_3d_v2.1.safetensors",
+    "keys": {
+      "conditioner.main_image_encoder.model.embeddings.cls_token": [
+        1,
+        1,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.embeddings.mask_token": [
+        1,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.embeddings.patch_embeddings.projection.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.embeddings.patch_embeddings.projection.weight": [
+        1024,
+        3,
+        14,
+        14
+      ],
+      "conditioner.main_image_encoder.model.embeddings.position_embeddings": [
+        1,
+        1370,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.0.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.1.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.10.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.11.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.12.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.13.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.14.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.15.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.16.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.17.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.18.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.19.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.2.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.20.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.21.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.22.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.23.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.3.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.4.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.5.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.6.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.7.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.8.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.attention.key.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.attention.key.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.attention.query.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.attention.query.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.attention.value.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.attention.value.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.output.dense.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.attention.output.dense.weight": [
+        1024,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.layer_scale1.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.layer_scale2.lambda1": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.mlp.fc1.bias": [
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.mlp.fc1.weight": [
+        4096,
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.mlp.fc2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.mlp.fc2.weight": [
+        1024,
+        4096
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.norm1.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.norm1.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.norm2.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.encoder.layer.9.norm2.weight": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.layernorm.bias": [
+        1024
+      ],
+      "conditioner.main_image_encoder.model.layernorm.weight": [
+        1024
+      ],
+      "model.blocks.0.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.0.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.0.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.0.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.0.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.0.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.0.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.0.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.0.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.0.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.0.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.0.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.0.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.0.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.0.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.0.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.0.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.0.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.0.norm1.bias": [
+        2048
+      ],
+      "model.blocks.0.norm1.weight": [
+        2048
+      ],
+      "model.blocks.0.norm2.bias": [
+        2048
+      ],
+      "model.blocks.0.norm2.weight": [
+        2048
+      ],
+      "model.blocks.0.norm3.bias": [
+        2048
+      ],
+      "model.blocks.0.norm3.weight": [
+        2048
+      ],
+      "model.blocks.1.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.1.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.1.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.1.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.1.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.1.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.1.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.1.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.1.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.1.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.1.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.1.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.1.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.1.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.1.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.1.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.1.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.1.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.1.norm1.bias": [
+        2048
+      ],
+      "model.blocks.1.norm1.weight": [
+        2048
+      ],
+      "model.blocks.1.norm2.bias": [
+        2048
+      ],
+      "model.blocks.1.norm2.weight": [
+        2048
+      ],
+      "model.blocks.1.norm3.bias": [
+        2048
+      ],
+      "model.blocks.1.norm3.weight": [
+        2048
+      ],
+      "model.blocks.10.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.10.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.10.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.10.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.10.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.10.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.10.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.10.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.10.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.10.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.10.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.10.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.10.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.10.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.10.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.10.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.10.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.10.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.10.norm1.bias": [
+        2048
+      ],
+      "model.blocks.10.norm1.weight": [
+        2048
+      ],
+      "model.blocks.10.norm2.bias": [
+        2048
+      ],
+      "model.blocks.10.norm2.weight": [
+        2048
+      ],
+      "model.blocks.10.norm3.bias": [
+        2048
+      ],
+      "model.blocks.10.norm3.weight": [
+        2048
+      ],
+      "model.blocks.11.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.11.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.11.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.11.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.11.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.11.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.11.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.11.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.11.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.11.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.11.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.11.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.11.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.11.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.11.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.11.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.11.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.11.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.11.norm1.bias": [
+        2048
+      ],
+      "model.blocks.11.norm1.weight": [
+        2048
+      ],
+      "model.blocks.11.norm2.bias": [
+        2048
+      ],
+      "model.blocks.11.norm2.weight": [
+        2048
+      ],
+      "model.blocks.11.norm3.bias": [
+        2048
+      ],
+      "model.blocks.11.norm3.weight": [
+        2048
+      ],
+      "model.blocks.11.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.11.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.11.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.11.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.12.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.12.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.12.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.12.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.12.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.12.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.12.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.12.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.12.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.12.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.12.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.12.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.12.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.12.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.12.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.12.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.12.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.12.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.12.norm1.bias": [
+        2048
+      ],
+      "model.blocks.12.norm1.weight": [
+        2048
+      ],
+      "model.blocks.12.norm2.bias": [
+        2048
+      ],
+      "model.blocks.12.norm2.weight": [
+        2048
+      ],
+      "model.blocks.12.norm3.bias": [
+        2048
+      ],
+      "model.blocks.12.norm3.weight": [
+        2048
+      ],
+      "model.blocks.12.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.12.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.12.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.12.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.13.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.13.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.13.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.13.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.13.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.13.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.13.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.13.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.13.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.13.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.13.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.13.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.13.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.13.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.13.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.13.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.13.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.13.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.13.norm1.bias": [
+        2048
+      ],
+      "model.blocks.13.norm1.weight": [
+        2048
+      ],
+      "model.blocks.13.norm2.bias": [
+        2048
+      ],
+      "model.blocks.13.norm2.weight": [
+        2048
+      ],
+      "model.blocks.13.norm3.bias": [
+        2048
+      ],
+      "model.blocks.13.norm3.weight": [
+        2048
+      ],
+      "model.blocks.13.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.13.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.13.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.13.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.14.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.14.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.14.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.14.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.14.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.14.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.14.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.14.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.14.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.14.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.14.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.14.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.14.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.14.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.14.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.14.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.14.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.14.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.14.norm1.bias": [
+        2048
+      ],
+      "model.blocks.14.norm1.weight": [
+        2048
+      ],
+      "model.blocks.14.norm2.bias": [
+        2048
+      ],
+      "model.blocks.14.norm2.weight": [
+        2048
+      ],
+      "model.blocks.14.norm3.bias": [
+        2048
+      ],
+      "model.blocks.14.norm3.weight": [
+        2048
+      ],
+      "model.blocks.14.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.14.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.14.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.14.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.15.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.15.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.15.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.15.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.15.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.15.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.15.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.15.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.15.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.15.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.15.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.15.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.15.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.15.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.15.moe.experts.0.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.0.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.0.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.0.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.1.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.1.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.1.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.1.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.2.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.2.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.2.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.2.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.3.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.3.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.3.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.3.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.4.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.4.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.4.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.4.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.5.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.5.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.5.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.5.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.6.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.6.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.6.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.6.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.experts.7.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.experts.7.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.experts.7.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.experts.7.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.moe.gate.weight": [
+        8,
+        2048
+      ],
+      "model.blocks.15.moe.shared_experts.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.15.moe.shared_experts.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.15.moe.shared_experts.net.2.bias": [
+        2048
+      ],
+      "model.blocks.15.moe.shared_experts.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.15.norm1.bias": [
+        2048
+      ],
+      "model.blocks.15.norm1.weight": [
+        2048
+      ],
+      "model.blocks.15.norm2.bias": [
+        2048
+      ],
+      "model.blocks.15.norm2.weight": [
+        2048
+      ],
+      "model.blocks.15.norm3.bias": [
+        2048
+      ],
+      "model.blocks.15.norm3.weight": [
+        2048
+      ],
+      "model.blocks.15.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.15.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.15.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.15.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.16.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.16.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.16.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.16.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.16.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.16.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.16.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.16.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.16.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.16.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.16.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.16.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.16.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.16.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.16.moe.experts.0.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.0.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.0.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.0.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.1.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.1.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.1.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.1.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.2.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.2.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.2.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.2.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.3.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.3.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.3.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.3.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.4.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.4.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.4.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.4.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.5.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.5.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.5.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.5.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.6.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.6.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.6.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.6.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.experts.7.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.experts.7.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.experts.7.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.experts.7.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.moe.gate.weight": [
+        8,
+        2048
+      ],
+      "model.blocks.16.moe.shared_experts.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.16.moe.shared_experts.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.16.moe.shared_experts.net.2.bias": [
+        2048
+      ],
+      "model.blocks.16.moe.shared_experts.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.16.norm1.bias": [
+        2048
+      ],
+      "model.blocks.16.norm1.weight": [
+        2048
+      ],
+      "model.blocks.16.norm2.bias": [
+        2048
+      ],
+      "model.blocks.16.norm2.weight": [
+        2048
+      ],
+      "model.blocks.16.norm3.bias": [
+        2048
+      ],
+      "model.blocks.16.norm3.weight": [
+        2048
+      ],
+      "model.blocks.16.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.16.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.16.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.16.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.17.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.17.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.17.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.17.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.17.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.17.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.17.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.17.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.17.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.17.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.17.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.17.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.17.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.17.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.17.moe.experts.0.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.0.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.0.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.0.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.1.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.1.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.1.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.1.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.2.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.2.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.2.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.2.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.3.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.3.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.3.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.3.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.4.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.4.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.4.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.4.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.5.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.5.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.5.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.5.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.6.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.6.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.6.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.6.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.experts.7.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.experts.7.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.experts.7.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.experts.7.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.moe.gate.weight": [
+        8,
+        2048
+      ],
+      "model.blocks.17.moe.shared_experts.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.17.moe.shared_experts.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.17.moe.shared_experts.net.2.bias": [
+        2048
+      ],
+      "model.blocks.17.moe.shared_experts.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.17.norm1.bias": [
+        2048
+      ],
+      "model.blocks.17.norm1.weight": [
+        2048
+      ],
+      "model.blocks.17.norm2.bias": [
+        2048
+      ],
+      "model.blocks.17.norm2.weight": [
+        2048
+      ],
+      "model.blocks.17.norm3.bias": [
+        2048
+      ],
+      "model.blocks.17.norm3.weight": [
+        2048
+      ],
+      "model.blocks.17.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.17.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.17.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.17.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.18.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.18.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.18.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.18.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.18.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.18.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.18.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.18.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.18.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.18.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.18.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.18.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.18.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.18.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.18.moe.experts.0.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.0.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.0.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.0.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.1.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.1.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.1.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.1.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.2.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.2.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.2.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.2.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.3.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.3.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.3.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.3.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.4.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.4.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.4.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.4.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.5.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.5.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.5.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.5.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.6.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.6.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.6.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.6.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.experts.7.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.experts.7.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.experts.7.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.experts.7.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.moe.gate.weight": [
+        8,
+        2048
+      ],
+      "model.blocks.18.moe.shared_experts.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.18.moe.shared_experts.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.18.moe.shared_experts.net.2.bias": [
+        2048
+      ],
+      "model.blocks.18.moe.shared_experts.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.18.norm1.bias": [
+        2048
+      ],
+      "model.blocks.18.norm1.weight": [
+        2048
+      ],
+      "model.blocks.18.norm2.bias": [
+        2048
+      ],
+      "model.blocks.18.norm2.weight": [
+        2048
+      ],
+      "model.blocks.18.norm3.bias": [
+        2048
+      ],
+      "model.blocks.18.norm3.weight": [
+        2048
+      ],
+      "model.blocks.18.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.18.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.18.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.18.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.19.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.19.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.19.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.19.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.19.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.19.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.19.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.19.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.19.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.19.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.19.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.19.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.19.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.19.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.19.moe.experts.0.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.0.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.0.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.0.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.1.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.1.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.1.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.1.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.2.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.2.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.2.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.2.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.3.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.3.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.3.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.3.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.4.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.4.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.4.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.4.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.5.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.5.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.5.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.5.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.6.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.6.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.6.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.6.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.experts.7.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.experts.7.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.experts.7.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.experts.7.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.moe.gate.weight": [
+        8,
+        2048
+      ],
+      "model.blocks.19.moe.shared_experts.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.19.moe.shared_experts.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.19.moe.shared_experts.net.2.bias": [
+        2048
+      ],
+      "model.blocks.19.moe.shared_experts.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.19.norm1.bias": [
+        2048
+      ],
+      "model.blocks.19.norm1.weight": [
+        2048
+      ],
+      "model.blocks.19.norm2.bias": [
+        2048
+      ],
+      "model.blocks.19.norm2.weight": [
+        2048
+      ],
+      "model.blocks.19.norm3.bias": [
+        2048
+      ],
+      "model.blocks.19.norm3.weight": [
+        2048
+      ],
+      "model.blocks.19.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.19.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.19.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.19.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.2.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.2.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.2.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.2.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.2.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.2.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.2.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.2.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.2.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.2.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.2.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.2.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.2.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.2.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.2.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.2.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.2.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.2.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.2.norm1.bias": [
+        2048
+      ],
+      "model.blocks.2.norm1.weight": [
+        2048
+      ],
+      "model.blocks.2.norm2.bias": [
+        2048
+      ],
+      "model.blocks.2.norm2.weight": [
+        2048
+      ],
+      "model.blocks.2.norm3.bias": [
+        2048
+      ],
+      "model.blocks.2.norm3.weight": [
+        2048
+      ],
+      "model.blocks.20.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.20.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.20.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.20.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.20.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.20.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.20.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.20.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.20.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.20.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.20.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.20.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.20.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.20.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.20.moe.experts.0.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.0.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.0.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.0.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.1.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.1.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.1.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.1.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.2.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.2.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.2.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.2.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.3.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.3.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.3.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.3.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.4.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.4.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.4.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.4.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.5.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.5.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.5.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.5.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.6.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.6.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.6.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.6.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.experts.7.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.experts.7.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.experts.7.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.experts.7.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.moe.gate.weight": [
+        8,
+        2048
+      ],
+      "model.blocks.20.moe.shared_experts.net.0.proj.bias": [
+        8192
+      ],
+      "model.blocks.20.moe.shared_experts.net.0.proj.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.20.moe.shared_experts.net.2.bias": [
+        2048
+      ],
+      "model.blocks.20.moe.shared_experts.net.2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.20.norm1.bias": [
+        2048
+      ],
+      "model.blocks.20.norm1.weight": [
+        2048
+      ],
+      "model.blocks.20.norm2.bias": [
+        2048
+      ],
+      "model.blocks.20.norm2.weight": [
+        2048
+      ],
+      "model.blocks.20.norm3.bias": [
+        2048
+      ],
+      "model.blocks.20.norm3.weight": [
+        2048
+      ],
+      "model.blocks.20.skip_linear.bias": [
+        2048
+      ],
+      "model.blocks.20.skip_linear.weight": [
+        2048,
+        4096
+      ],
+      "model.blocks.20.skip_norm.bias": [
+        2048
+      ],
+      "model.blocks.20.skip_norm.weight": [
+        2048
+      ],
+      "model.blocks.3.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.3.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.3.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.3.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.3.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.3.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.3.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.3.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.3.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.3.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.3.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.3.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.3.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.3.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.3.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.3.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.3.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.3.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.3.norm1.bias": [
+        2048
+      ],
+      "model.blocks.3.norm1.weight": [
+        2048
+      ],
+      "model.blocks.3.norm2.bias": [
+        2048
+      ],
+      "model.blocks.3.norm2.weight": [
+        2048
+      ],
+      "model.blocks.3.norm3.bias": [
+        2048
+      ],
+      "model.blocks.3.norm3.weight": [
+        2048
+      ],
+      "model.blocks.4.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.4.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.4.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.4.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.4.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.4.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.4.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.4.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.4.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.4.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.4.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.4.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.4.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.4.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.4.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.4.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.4.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.4.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.4.norm1.bias": [
+        2048
+      ],
+      "model.blocks.4.norm1.weight": [
+        2048
+      ],
+      "model.blocks.4.norm2.bias": [
+        2048
+      ],
+      "model.blocks.4.norm2.weight": [
+        2048
+      ],
+      "model.blocks.4.norm3.bias": [
+        2048
+      ],
+      "model.blocks.4.norm3.weight": [
+        2048
+      ],
+      "model.blocks.5.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.5.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.5.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.5.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.5.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.5.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.5.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.5.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.5.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.5.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.5.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.5.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.5.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.5.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.5.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.5.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.5.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.5.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.5.norm1.bias": [
+        2048
+      ],
+      "model.blocks.5.norm1.weight": [
+        2048
+      ],
+      "model.blocks.5.norm2.bias": [
+        2048
+      ],
+      "model.blocks.5.norm2.weight": [
+        2048
+      ],
+      "model.blocks.5.norm3.bias": [
+        2048
+      ],
+      "model.blocks.5.norm3.weight": [
+        2048
+      ],
+      "model.blocks.6.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.6.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.6.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.6.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.6.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.6.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.6.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.6.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.6.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.6.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.6.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.6.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.6.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.6.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.6.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.6.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.6.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.6.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.6.norm1.bias": [
+        2048
+      ],
+      "model.blocks.6.norm1.weight": [
+        2048
+      ],
+      "model.blocks.6.norm2.bias": [
+        2048
+      ],
+      "model.blocks.6.norm2.weight": [
+        2048
+      ],
+      "model.blocks.6.norm3.bias": [
+        2048
+      ],
+      "model.blocks.6.norm3.weight": [
+        2048
+      ],
+      "model.blocks.7.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.7.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.7.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.7.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.7.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.7.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.7.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.7.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.7.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.7.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.7.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.7.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.7.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.7.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.7.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.7.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.7.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.7.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.7.norm1.bias": [
+        2048
+      ],
+      "model.blocks.7.norm1.weight": [
+        2048
+      ],
+      "model.blocks.7.norm2.bias": [
+        2048
+      ],
+      "model.blocks.7.norm2.weight": [
+        2048
+      ],
+      "model.blocks.7.norm3.bias": [
+        2048
+      ],
+      "model.blocks.7.norm3.weight": [
+        2048
+      ],
+      "model.blocks.8.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.8.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.8.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.8.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.8.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.8.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.8.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.8.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.8.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.8.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.8.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.8.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.8.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.8.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.8.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.8.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.8.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.8.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.8.norm1.bias": [
+        2048
+      ],
+      "model.blocks.8.norm1.weight": [
+        2048
+      ],
+      "model.blocks.8.norm2.bias": [
+        2048
+      ],
+      "model.blocks.8.norm2.weight": [
+        2048
+      ],
+      "model.blocks.8.norm3.bias": [
+        2048
+      ],
+      "model.blocks.8.norm3.weight": [
+        2048
+      ],
+      "model.blocks.9.attn1.k_norm.weight": [
+        128
+      ],
+      "model.blocks.9.attn1.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.9.attn1.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.9.attn1.q_norm.weight": [
+        128
+      ],
+      "model.blocks.9.attn1.to_k.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.9.attn1.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.9.attn1.to_v.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.9.attn2.k_norm.weight": [
+        128
+      ],
+      "model.blocks.9.attn2.out_proj.bias": [
+        2048
+      ],
+      "model.blocks.9.attn2.out_proj.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.9.attn2.q_norm.weight": [
+        128
+      ],
+      "model.blocks.9.attn2.to_k.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.9.attn2.to_q.weight": [
+        2048,
+        2048
+      ],
+      "model.blocks.9.attn2.to_v.weight": [
+        2048,
+        1024
+      ],
+      "model.blocks.9.mlp.fc1.bias": [
+        8192
+      ],
+      "model.blocks.9.mlp.fc1.weight": [
+        8192,
+        2048
+      ],
+      "model.blocks.9.mlp.fc2.bias": [
+        2048
+      ],
+      "model.blocks.9.mlp.fc2.weight": [
+        2048,
+        8192
+      ],
+      "model.blocks.9.norm1.bias": [
+        2048
+      ],
+      "model.blocks.9.norm1.weight": [
+        2048
+      ],
+      "model.blocks.9.norm2.bias": [
+        2048
+      ],
+      "model.blocks.9.norm2.weight": [
+        2048
+      ],
+      "model.blocks.9.norm3.bias": [
+        2048
+      ],
+      "model.blocks.9.norm3.weight": [
+        2048
+      ],
+      "model.final_layer.linear.bias": [
+        64
+      ],
+      "model.final_layer.linear.weight": [
+        64,
+        2048
+      ],
+      "model.final_layer.norm_final.bias": [
+        2048
+      ],
+      "model.final_layer.norm_final.weight": [
+        2048
+      ],
+      "model.t_embedder.mlp.0.bias": [
+        8192
+      ],
+      "model.t_embedder.mlp.0.weight": [
+        8192,
+        2048
+      ],
+      "model.t_embedder.mlp.2.bias": [
+        2048
+      ],
+      "model.t_embedder.mlp.2.weight": [
+        2048,
+        8192
+      ],
+      "model.x_embedder.bias": [
+        2048
+      ],
+      "model.x_embedder.weight": [
+        2048,
+        64
+      ],
+      "vae.encoder.cross_attn.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.cross_attn.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.cross_attn.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.cross_attn.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.cross_attn.attn.c_kv.weight": [
+        2048,
+        1024
+      ],
+      "vae.encoder.cross_attn.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.cross_attn.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.cross_attn.attn.c_q.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.cross_attn.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.cross_attn.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.cross_attn.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.cross_attn.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.cross_attn.ln_3.bias": [
+        1024
+      ],
+      "vae.encoder.cross_attn.ln_3.weight": [
+        1024
+      ],
+      "vae.encoder.cross_attn.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.cross_attn.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.cross_attn.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.cross_attn.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.input_proj.bias": [
+        1024
+      ],
+      "vae.encoder.input_proj.weight": [
+        1024,
+        55
+      ],
+      "vae.encoder.ln_post.bias": [
+        1024
+      ],
+      "vae.encoder.ln_post.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.0.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.0.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.1.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.1.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.2.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.2.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.3.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.3.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.4.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.4.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.5.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.5.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.6.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.6.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.ln_1.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.ln_1.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.ln_2.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.ln_2.weight": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.encoder.self_attn.resblocks.7.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.encoder.self_attn.resblocks.7.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.c_kv.weight": [
+        2048,
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.attn.c_q.weight": [
+        1024,
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.ln_1.bias": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.ln_1.weight": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.ln_2.bias": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.ln_2.weight": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.ln_3.bias": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.ln_3.weight": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.geo_decoder.cross_attn_decoder.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.geo_decoder.cross_attn_decoder.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.geo_decoder.ln_post.bias": [
+        1024
+      ],
+      "vae.geo_decoder.ln_post.weight": [
+        1024
+      ],
+      "vae.geo_decoder.output_proj.bias": [
+        1
+      ],
+      "vae.geo_decoder.output_proj.weight": [
+        1,
+        1024
+      ],
+      "vae.geo_decoder.query_proj.bias": [
+        1024
+      ],
+      "vae.geo_decoder.query_proj.weight": [
+        1024,
+        51
+      ],
+      "vae.post_kl.bias": [
+        1024
+      ],
+      "vae.post_kl.weight": [
+        1024,
+        64
+      ],
+      "vae.pre_kl.bias": [
+        128
+      ],
+      "vae.pre_kl.weight": [
+        128,
+        1024
+      ],
+      "vae.transformer.resblocks.0.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.0.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.0.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.0.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.0.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.0.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.0.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.0.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.0.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.0.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.0.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.0.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.0.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.0.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.0.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.1.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.1.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.1.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.1.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.1.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.1.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.1.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.1.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.1.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.1.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.1.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.1.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.1.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.1.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.1.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.10.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.10.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.10.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.10.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.10.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.10.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.10.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.10.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.10.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.10.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.10.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.10.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.10.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.10.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.10.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.11.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.11.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.11.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.11.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.11.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.11.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.11.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.11.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.11.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.11.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.11.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.11.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.11.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.11.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.11.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.12.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.12.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.12.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.12.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.12.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.12.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.12.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.12.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.12.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.12.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.12.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.12.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.12.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.12.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.12.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.13.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.13.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.13.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.13.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.13.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.13.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.13.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.13.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.13.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.13.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.13.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.13.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.13.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.13.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.13.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.14.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.14.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.14.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.14.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.14.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.14.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.14.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.14.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.14.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.14.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.14.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.14.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.14.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.14.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.14.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.15.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.15.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.15.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.15.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.15.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.15.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.15.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.15.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.15.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.15.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.15.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.15.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.15.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.15.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.15.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.2.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.2.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.2.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.2.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.2.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.2.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.2.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.2.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.2.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.2.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.2.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.2.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.2.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.2.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.2.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.3.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.3.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.3.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.3.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.3.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.3.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.3.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.3.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.3.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.3.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.3.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.3.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.3.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.3.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.3.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.4.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.4.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.4.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.4.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.4.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.4.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.4.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.4.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.4.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.4.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.4.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.4.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.4.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.4.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.4.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.5.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.5.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.5.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.5.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.5.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.5.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.5.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.5.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.5.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.5.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.5.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.5.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.5.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.5.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.5.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.6.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.6.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.6.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.6.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.6.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.6.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.6.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.6.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.6.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.6.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.6.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.6.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.6.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.6.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.6.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.7.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.7.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.7.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.7.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.7.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.7.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.7.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.7.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.7.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.7.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.7.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.7.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.7.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.7.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.7.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.8.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.8.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.8.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.8.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.8.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.8.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.8.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.8.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.8.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.8.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.8.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.8.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.8.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.8.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.8.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "vae.transformer.resblocks.9.attn.attention.k_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.9.attn.attention.k_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.9.attn.attention.q_norm.bias": [
+        64
+      ],
+      "vae.transformer.resblocks.9.attn.attention.q_norm.weight": [
+        64
+      ],
+      "vae.transformer.resblocks.9.attn.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.9.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "vae.transformer.resblocks.9.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "vae.transformer.resblocks.9.ln_1.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.9.ln_1.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.9.ln_2.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.9.ln_2.weight": [
+        1024
+      ],
+      "vae.transformer.resblocks.9.mlp.c_fc.bias": [
+        4096
+      ],
+      "vae.transformer.resblocks.9.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "vae.transformer.resblocks.9.mlp.c_proj.bias": [
+        1024
+      ],
+      "vae.transformer.resblocks.9.mlp.c_proj.weight": [
+        1024,
+        4096
+      ]
+    },
+    "groups": {
+      "model": 752,
+      "conditioner": 439,
+      "vae": 410
+    }
+  },
+  "vae": {
+    "file": "C:\\Users\\bnna7\\workspace\\git\\aigc-refactored\\models\\vae\\hunyuan3d_v2.1_vae.safetensors",
+    "keys": {
+      "encoder.cross_attn.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.cross_attn.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.cross_attn.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.cross_attn.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.cross_attn.attn.c_kv.weight": [
+        2048,
+        1024
+      ],
+      "encoder.cross_attn.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.cross_attn.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.cross_attn.attn.c_q.weight": [
+        1024,
+        1024
+      ],
+      "encoder.cross_attn.ln_1.bias": [
+        1024
+      ],
+      "encoder.cross_attn.ln_1.weight": [
+        1024
+      ],
+      "encoder.cross_attn.ln_2.bias": [
+        1024
+      ],
+      "encoder.cross_attn.ln_2.weight": [
+        1024
+      ],
+      "encoder.cross_attn.ln_3.bias": [
+        1024
+      ],
+      "encoder.cross_attn.ln_3.weight": [
+        1024
+      ],
+      "encoder.cross_attn.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.cross_attn.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.cross_attn.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.cross_attn.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.input_proj.bias": [
+        1024
+      ],
+      "encoder.input_proj.weight": [
+        1024,
+        55
+      ],
+      "encoder.ln_post.bias": [
+        1024
+      ],
+      "encoder.ln_post.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.0.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.0.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.0.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.0.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.0.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.0.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.1.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.1.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.1.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.1.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.1.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.1.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.1.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.2.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.2.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.2.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.2.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.2.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.2.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.2.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.3.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.3.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.3.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.3.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.3.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.3.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.3.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.4.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.4.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.4.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.4.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.4.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.4.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.4.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.5.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.5.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.5.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.5.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.5.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.5.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.5.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.6.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.6.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.6.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.6.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.6.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.6.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.6.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "encoder.self_attn.resblocks.7.attn.attention.k_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.7.attn.attention.k_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.7.attn.attention.q_norm.bias": [
+        64
+      ],
+      "encoder.self_attn.resblocks.7.attn.attention.q_norm.weight": [
+        64
+      ],
+      "encoder.self_attn.resblocks.7.attn.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.ln_1.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.ln_1.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.ln_2.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.ln_2.weight": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.mlp.c_fc.bias": [
+        4096
+      ],
+      "encoder.self_attn.resblocks.7.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.mlp.c_proj.bias": [
+        1024
+      ],
+      "encoder.self_attn.resblocks.7.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "geo_decoder.cross_attn_decoder.attn.attention.k_norm.bias": [
+        64
+      ],
+      "geo_decoder.cross_attn_decoder.attn.attention.k_norm.weight": [
+        64
+      ],
+      "geo_decoder.cross_attn_decoder.attn.attention.q_norm.bias": [
+        64
+      ],
+      "geo_decoder.cross_attn_decoder.attn.attention.q_norm.weight": [
+        64
+      ],
+      "geo_decoder.cross_attn_decoder.attn.c_kv.weight": [
+        2048,
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.attn.c_proj.bias": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.attn.c_q.weight": [
+        1024,
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.ln_1.bias": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.ln_1.weight": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.ln_2.bias": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.ln_2.weight": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.ln_3.bias": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.ln_3.weight": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.mlp.c_fc.bias": [
+        4096
+      ],
+      "geo_decoder.cross_attn_decoder.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.mlp.c_proj.bias": [
+        1024
+      ],
+      "geo_decoder.cross_attn_decoder.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "geo_decoder.ln_post.bias": [
+        1024
+      ],
+      "geo_decoder.ln_post.weight": [
+        1024
+      ],
+      "geo_decoder.output_proj.bias": [
+        1
+      ],
+      "geo_decoder.output_proj.weight": [
+        1,
+        1024
+      ],
+      "geo_decoder.query_proj.bias": [
+        1024
+      ],
+      "geo_decoder.query_proj.weight": [
+        1024,
+        51
+      ],
+      "post_kl.bias": [
+        1024
+      ],
+      "post_kl.weight": [
+        1024,
+        64
+      ],
+      "pre_kl.bias": [
+        128
+      ],
+      "pre_kl.weight": [
+        128,
+        1024
+      ],
+      "transformer.resblocks.0.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.0.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.0.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.0.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.0.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.0.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.0.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.0.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.0.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.0.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.0.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.0.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.0.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.0.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.0.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.1.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.1.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.1.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.1.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.1.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.1.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.1.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.1.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.1.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.1.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.1.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.1.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.1.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.1.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.1.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.10.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.10.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.10.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.10.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.10.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.10.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.10.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.10.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.10.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.10.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.10.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.10.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.10.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.10.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.10.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.11.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.11.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.11.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.11.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.11.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.11.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.11.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.11.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.11.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.11.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.11.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.11.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.11.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.11.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.11.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.12.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.12.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.12.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.12.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.12.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.12.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.12.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.12.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.12.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.12.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.12.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.12.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.12.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.12.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.12.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.13.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.13.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.13.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.13.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.13.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.13.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.13.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.13.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.13.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.13.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.13.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.13.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.13.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.13.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.13.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.14.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.14.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.14.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.14.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.14.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.14.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.14.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.14.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.14.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.14.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.14.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.14.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.14.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.14.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.14.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.15.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.15.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.15.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.15.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.15.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.15.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.15.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.15.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.15.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.15.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.15.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.15.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.15.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.15.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.15.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.2.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.2.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.2.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.2.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.2.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.2.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.2.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.2.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.2.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.2.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.2.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.2.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.2.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.2.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.2.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.3.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.3.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.3.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.3.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.3.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.3.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.3.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.3.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.3.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.3.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.3.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.3.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.3.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.3.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.3.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.4.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.4.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.4.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.4.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.4.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.4.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.4.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.4.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.4.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.4.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.4.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.4.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.4.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.4.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.4.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.5.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.5.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.5.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.5.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.5.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.5.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.5.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.5.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.5.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.5.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.5.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.5.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.5.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.5.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.5.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.6.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.6.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.6.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.6.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.6.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.6.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.6.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.6.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.6.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.6.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.6.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.6.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.6.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.6.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.6.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.7.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.7.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.7.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.7.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.7.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.7.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.7.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.7.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.7.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.7.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.7.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.7.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.7.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.7.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.7.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.8.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.8.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.8.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.8.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.8.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.8.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.8.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.8.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.8.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.8.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.8.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.8.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.8.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.8.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.8.mlp.c_proj.weight": [
+        1024,
+        4096
+      ],
+      "transformer.resblocks.9.attn.attention.k_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.9.attn.attention.k_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.9.attn.attention.q_norm.bias": [
+        64
+      ],
+      "transformer.resblocks.9.attn.attention.q_norm.weight": [
+        64
+      ],
+      "transformer.resblocks.9.attn.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.9.attn.c_proj.weight": [
+        1024,
+        1024
+      ],
+      "transformer.resblocks.9.attn.c_qkv.weight": [
+        3072,
+        1024
+      ],
+      "transformer.resblocks.9.ln_1.bias": [
+        1024
+      ],
+      "transformer.resblocks.9.ln_1.weight": [
+        1024
+      ],
+      "transformer.resblocks.9.ln_2.bias": [
+        1024
+      ],
+      "transformer.resblocks.9.ln_2.weight": [
+        1024
+      ],
+      "transformer.resblocks.9.mlp.c_fc.bias": [
+        4096
+      ],
+      "transformer.resblocks.9.mlp.c_fc.weight": [
+        4096,
+        1024
+      ],
+      "transformer.resblocks.9.mlp.c_proj.bias": [
+        1024
+      ],
+      "transformer.resblocks.9.mlp.c_proj.weight": [
+        1024,
+        4096
+      ]
+    },
+    "groups": {
+      "transformer": 240,
+      "encoder": 142,
+      "geo_decoder": 24,
+      "post_kl": 2,
+      "pre_kl": 2
+    }
+  }
+}
